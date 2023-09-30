@@ -10,7 +10,7 @@ public class Atv03 {
         Scanner scanner = new Scanner(System.in);
 
         System.out.print("Digite um número e descubra qual dia da semana ele representa: ");
-        int diaSemana = scanner.nextInt();
+        byte diaSemana = scanner.nextByte();
 
         if(diaSemana == 1){
             System.out.println("Hoje é Segunda-feira!");
